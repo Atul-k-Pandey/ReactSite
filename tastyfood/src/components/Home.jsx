@@ -1,6 +1,8 @@
+import Footer from "./Footer";
 const Home = () => {
   return (
-    <section
+    <div>
+    <div
       className="relative min-h-screen bg-cover bg-center"
       style={{
         backgroundImage:
@@ -38,7 +40,7 @@ const Home = () => {
 
           {/* Actions */}
           <div className="flex gap-3">
-            <button className="hidden md:block border border-yellow-400 text-black px-4 py-2 rounded-full text-sm hover:bg-yellow-400 hover:text-black transition">
+            <button className="hidden md:block border border-yellow-400 text-yellow-400 px-4 py-2 rounded-full text-sm hover:bg-yellow-400 hover:text-black transition">
               Order online
             </button>
             <button className="bg-yellow-400 text-black px-5 py-2 rounded-full text-sm font-medium hover:bg-yellow-500 transition">
@@ -82,7 +84,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
+    <Footer/>
+    </div>
   );
 };
 
