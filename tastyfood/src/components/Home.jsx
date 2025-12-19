@@ -57,7 +57,7 @@ const Home = () => {
             </h2>
 
             <p className="mt-4 text-gray-200 max-w-md text-sm leading-relaxed">
-              TastyTable offers exceptional cuisine and warm hospitality.
+              YummyTable offers exceptional cuisine and warm hospitality.
               Our menu blends traditional favorites with innovative dishes,
               all made with the freshest ingredients.
             </p>
