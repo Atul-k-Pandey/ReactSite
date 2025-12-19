@@ -19,7 +19,7 @@ const Home = () => {
             <span className="text-3xl">👨‍🍳</span>
             <div>
               <h1 className="text-lg font-bold">
-                <span className="text-orange-400">Tasty</span>{" "}
+                <span className="text-orange-400">Yummy</span>{" "}
                 <span className="text-yellow-300">Table</span>
               </h1>
               <p className="text-xs tracking-wide text-gray-200">
